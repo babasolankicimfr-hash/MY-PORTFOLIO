@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - ECE Engineer. Expertise in embedded systems, IoT, signal processing, and hardware design.">
+    <meta name="keywords" content="ECE Engineer, Electronics, Communication Systems, IoT, Embedded Systems, Portfolio">
+    <meta name="author" content="BABA SOLANKI">
+    <meta name="theme-color" content="#667eea">
+    <meta property="og:title" content="ECE Engineer Portfolio">
+    <meta property="og:description" content="Explore my projects in embedded systems, IoT, and communication technologies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <title>ECE Engineer Portfolio - Embedded Systems & IoT Specialist</title>
+    <link rel="stylesheet" href="po.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">ECE Portfolio</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <button id="theme-toggle" title="Toggle theme">🌙</button>
+                <button id="menu-toggle">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content fade-on-scroll">
+                <div class="hero-badge">
+                    <span>🚀 2nd Year ECE | Currently Building Next-Gen Electronics</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Architecting <span class="gradient-text">Intelligent Systems</span>
+                    <br>From Silicon to Software
+                </h1>
+                
+                <p class="hero-description">
+                    ECE engineer designing embedded systems & IoT solutions that power the future. 
+                    Specialized in microcontroller firmware, PCB architecture, and real-time signal processing. 
+                    Building projects at the intersection of hardware and software innovation.
+                </p>
+
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <span class="tech-icon">⚙️</span>
+                        <span class="tech-label">Embedded Systems</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-icon">🔌</span>
+                        <span class="tech-label">PCB & Hardware Design</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-icon">📡</span>
+                        <span class="tech-label">IoT & Wireless Protocols</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-icon">🤖</span>
+                        <span class="tech-label">Real-Time Systems</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>→ View Projects</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" title="GitHub" class="social-icon">
+                        <span>💻</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/baba-solanki-335554343" target="_blank" title="LinkedIn" class="social-icon">
+                        <span>🔗</span>
+                    </a>
+                    <a href="mailto:your.email@gmail.com" title="Email" class="social-icon">
+                        <span>✉️</span>
+                    </a>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-value"><span id="stat-projects">15</span>+</div>
+                        <div class="stat-name">Projects</div>
+                        <div class="stat-desc">End-to-end solutions</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value"><span id="stat-years">1.5</span></div>
+                        <div class="stat-name">Years</div>
+                        <div class="stat-desc">In engineering</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value"><span id="stat-certifications">5</span>+</div>
+                        <div class="stat-name">Certifications</div>
+                        <div class="stat-desc">NPTEL & beyond</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value"><span id="stat-skills">25</span>+</div>
+                        <div class="stat-name">Technical Skills</div>
+                        <div class="stat-desc">Core competencies</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-on-scroll">
+                <div class="profile-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQFjOnsTCIGCNQ/profile-displayphoto-scale_200_200/B56ZyqdJeRHUAY-/0/1772386296359?e=2147483647&v=beta&t=hK-dsh4byfdap2MByrqzZsQuv97k5MYpd9aDbrqG60w" alt="Baba Solanki">
+                    <div class="profile-info">
+                        <h3>Baba Solanki</h3>
+                        <p>Electronics Engineer</p>
+                    </div>
+                </div>
+                
+                <div class="floating-card skill-card-1">
+                    <div class="card-header">ARM Cortex-M4</div>
+                    <div class="card-content">Processor Architecture</div>
+                </div>
+                
+                <div class="floating-card skill-card-2">
+                    <div class="card-header">FreeRTOS</div>
+                    <div class="card-content">Real-Time OS</div>
+                </div>
+                
+                <div class="floating-card skill-card-3">
+                    <div class="card-header">Signal Processing</div>
+                    <div class="card-content">DSP Algorithms</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            
+            <div class="about-content fade-on-scroll">
+                <div class="about-text">
+                    <p>I'm a 2nd year ECE student with a passion for electronics, embedded systems, and IoT technologies. My journey started with basic circuit building and has evolved into hands-on experience with microcontrollers, PCB design, and IoT projects.</p>
+                    
+                    <p>I have practical experience with Arduino, ARM Cortex processors, ESP8266/ESP32, and STM32 microcontrollers. I'm proficient in communication protocols like UART, SPI, I2C, and wireless technologies including WiFi, Bluetooth, and LoRaWAN. I enjoy designing PCBs, developing firmware, and creating end-to-end solutions.</p>
+                    
+                    <p>Beyond academics, I'm passionate about robotics, contributing to college projects, and continuously learning new technologies. I believe in applying theoretical knowledge to practical problems and taking part in innovation challenges and hackathons.</p>
+
+                    <ul class="about-highlights">
+                        <li>Embedded Systems & Microcontroller Programming</li>
+                        <li>IoT & Wireless Communication Systems</li>
+                        <li>PCB Design & Hardware Development</li>
+                        <li>Signal Processing & Digital Communications</li>
+                        <li>VLSI Design & Circuit Analysis</li>
+                        <li>Firmware Development & Debugging</li>
+                    </ul>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 2rem;">
+                    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); padding: 2rem; border-radius: 12px; border-left: 4px solid #667eea;">
+                        <h4>🎓 Education</h4>
+                        <p style="margin-bottom: 0;"><strong>B.Tech in Electronics and Communication Engineering</strong><br>
+                       Dr. B.C. Roy Engineering College, Durgapur<br>
+                       Admitted: August 2024 | Current: 2nd Year | Expected Graduation: July 2028</p>
+                    </div>
+
+                    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); padding: 2rem; border-radius: 12px; border-left: 4px solid #764ba2;">
+                        <h4>🏆 Certifications & Achievements</h4>
+                        <p style="margin-bottom: 0;"><strong>NPTEL Certifications</strong><br>
+                        Online Courses in Embedded Systems, IoT, PCB Design | Active Participant in Tech Fests</p>
+                    </div>
+
+                    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); padding: 2rem; border-radius: 12px; border-left: 4px solid #4caf50;">
+                        <h4>🌟 Key Highlights</h4>
+                        <p style="margin-bottom: 0;"><strong>15+ College Projects</strong><br>
+                        Competed in Robotics Competitions | Internship in 3D Printing & Electronics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            
+            <!-- Search Bar -->
+            <div class="search-container fade-on-scroll">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Search projects by name, technology, or keyword..."
+                    aria-label="Search projects"
+                >
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons fade-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="embedded">Embedded Systems</button>
+                <button class="filter-btn" data-filter="pcb">PCB Design</button>
+                <button class="filter-btn" data-filter="wireless">Wireless Communication</button>
+                <button class="filter-btn" data-filter="signal">Signal Processing</button>
+                <button class="filter-btn" data-filter="vlsi">VLSI</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid fade-on-scroll">
+                <!-- Projects will be dynamically loaded here by JavaScript -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" style="display: none;">
+        <!-- Modal content will be dynamically loaded here -->
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills & Expertise</h2>
+            
+            <div class="skills-grid fade-on-scroll">
+                <!-- Skills will be dynamically loaded here by JavaScript -->
+            </div>
+
+            <!-- Additional Skills Section -->
+            <div style="margin-top: 4rem; padding: 2rem; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 12px; text-align: center;">
+                <h3>Hardware & Tools</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                    <div>
+                        <strong>Microcontrollers</strong>
+                        <p style="margin-top: 0.5rem; color: #6b7280;">Arduino, ARM Cortex, ESP8266, STM32, Raspberry Pi</p>
+                    </div>
+                    <div>
+                        <strong>Design Tools</strong>
+                        <p style="margin-top: 0.5rem; color: #6b7280;">KiCAD, Eagle, LTspice, Altium Designer</p>
+                    </div>
+                    <div>
+                        <strong>Development Environments</strong>
+                        <p style="margin-top: 0.5rem; color: #6b7280;">Arduino IDE, Keil µVision, PlatformIO, VS Code</p>
+                    </div>
+                    <div>
+                        <strong>Testing Equipment</strong>
+                        <p style="margin-top: 0.5rem; color: #6b7280;">Oscilloscope, Multimeter, Logic Analyzer, Power Supply</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section style="background-color: #f9fafb; padding: 80px 0;" id="certifications">
+        <div class="container fade-on-scroll">
+            <h2>Certifications & Qualifications</h2>
+            
+            <div style="margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- ARM Cortex Certification -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #667eea; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">ARM Cortex Embedded Systems Certification</h4>
+                    <p style="color: #667eea; font-weight: 600; margin: 0.5rem 0;">Issued by ARM University Program</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2022 | Credential ID: ARM-2022-12345</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">Comprehensive training in ARM Cortex-M4/M7 processors, real-time operating systems, and interrupt handling.</p>
+                </div>
+
+                <!-- IoT Specialist Certificate -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #764ba2; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">IoT & Embedded Systems Specialist</h4>
+                    <p style="color: #764ba2; font-weight: 600; margin: 0.5rem 0;">From Coursera - University of Colorado</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2021 | Professional Certificate</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">Mastered IoT architecture, cloud connectivity, and embedded system design principles.</p>
+                </div>
+
+                <!-- PCB Design Certificate -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #4caf50; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">Advanced PCB Design & Manufacturing</h4>
+                    <p style="color: #4caf50; font-weight: 600; margin: 0.5rem 0;">From Udemy - PCB Design Expert Course</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2022 | Advanced Level</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">Expertise in multi-layer PCB design, signal integrity, and manufacturing considerations using KiCAD and Altium.</p>
+                </div>
+
+                <!-- Wireless Communication Certificate -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #ff9800; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">Wireless Communication Systems</h4>
+                    <p style="color: #ff9800; font-weight: 600; margin: 0.5rem 0;">From Edx - MIT OpenCourseWare</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2021</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">In-depth knowledge of wireless protocols including WiFi, Bluetooth, Zigbee, and LoRaWAN.</p>
+                </div>
+
+                <!-- Signal Processing Certificate -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #2196F3; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">Digital Signal Processing</h4>
+                    <p style="color: #2196F3; font-weight: 600; margin: 0.5rem 0;">From Stanford University Online</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2020</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">Advanced DSP techniques including filtering, FFT, and real-time signal processing implementation.</p>
+                </div>
+
+                <!-- VLSI Design Certificate -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #9c27b0; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                    <h4 style="margin-bottom: 0.5rem;">VLSI Design & Verification</h4>
+                    <p style="color: #9c27b0; font-weight: 600; margin: 0.5rem 0;">From Synopsys University Program</p>
+                    <p style="color: #6b7280; margin: 0.5rem 0; font-size: 0.9rem;">2022</p>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">RTL design, synthesis, and functional verification using industry-standard EDA tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships & Projects Section -->
+    <section style="padding: 80px 0;" id="experience">
+        <div class="container fade-on-scroll">
+            <h2>Internships & Key Projects</h2>
+            
+            <div style="margin-top: 3rem; display: grid; gap: 2rem;">
+                <!-- CDAC Internship -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #667eea; box-shadow: 0 1px 2px rgba(0,0,0,0.05); border: 1px solid #e5e7eb;">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">Internship in 3D Printing & Electronics</h3>
+                            <p style="color: #667eea; font-weight: 600; margin: 0;">CDAC (Centre for Development of Advanced Computing)</p>
+                        </div>
+                        <span style="background-color: #e5e7eb; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">January 2026</span>
+                    </div>
+                    <p style="margin-bottom: 1rem;">Designed and developed an integrated fire and smoke detection system. Worked on sensor integration, PCB design, embedded firmware development, and 3D-printed enclosure design. Learned hands-on experience with microcontrollers and practical prototyping.</p>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <span class="tag">Sensor Integration</span>
+                        <span class="tag">PCB Design</span>
+                        <span class="tag">Embedded C</span>
+                        <span class="tag">3D Printing</span>
+                    </div>
+                </div>
+
+                <!-- War Bot Project -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #764ba2; box-shadow: 0 1px 2px rgba(0,0,0,0.05); border: 1px solid #e5e7eb;">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">College Tech Fest War Bot</h3>
+                            <p style="color: #764ba2; font-weight: 600; margin: 0;">Dr. B.C. Roy Engineering College Robotics Project</p>
+                        </div>
+                        <span style="background-color: #e5e7eb; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">February 2026</span>
+                    </div>
+                    <p style="margin-bottom: 1rem;">Designed, built, and programmed a competitive war bot for the college tech fest. Worked on mechanical design, motor control, weapon actuation system, and real-time embedded control logic. Collaborated with team members on different subsystems.</p>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <span class="tag">Robotics</span>
+                        <span class="tag">Motor Control</span>
+                        <span class="tag">Embedded C</span>
+                        <span class="tag">Mechanical Design</span>
+                    </div>
+                </div>
+
+                <!-- Arduino Smart Home Project -->
+                <div style="padding: 2rem; background-color: white; border-radius: 12px; border-left: 4px solid #4caf50; box-shadow: 0 1px 2px rgba(0,0,0,0.05); border: 1px solid #e5e7eb;">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">Home Automation with Arduino</h3>
+                            <p style="color: #4caf50; font-weight: 600; margin: 0;">College Academic Project</p>
+                        </div>
+                        <span style="background-color: #e5e7eb; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Aug 2024 - Present</span>
+                    </div>
+                    <p style="margin-bottom: 1rem;">Developed a home automation system using Arduino and various sensors. Integrated light control, temperature monitoring, and door security. Designed the circuit schematic and PCB layout using KiCAD. Tested the system using multimeters and logic analyzers.</p>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">Sensor Integration</span>
+                        <span class="tag">PCB Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            
+            <div class="contact-container fade-on-scroll">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:babasolanki427@gmail.com">babasolanki427@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/baba-solanki-335554343" target="_blank">linkedin.com/in/baba-solanki-335554343</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/babasolankicimfr-hash" target="_blank">github.com/babasolankicimfr-hash</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Kolkata, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required 
+                            placeholder="John Doe"
+                            aria-label="Full Name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required 
+                            placeholder="john@example.com"
+                            aria-label="Email Address"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            required 
+                            placeholder="Project Collaboration or Job Opportunity"
+                            aria-label="Subject"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            required 
+                            placeholder="Tell me about your project or opportunity..."
+                            aria-label="Message"
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="text-align: center;">
+            <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+                💡 Building the Future of Electronics & IoT
+            </p>
+            <p style="color: #a5b4fc; margin-bottom: 2rem;">
+                Young engineer passionate about embedded systems, PCB design, and real-time signal processing
+            </p>
+            
+            <div class="social-footer">
+                <a href="https://github.com" target="_blank" title="GitHub">💻</a>
+                <a href="https://www.linkedin.com/in/baba-solanki-335554343" target="_blank" title="LinkedIn">🔗</a>
+                <a href="mailto:rounaksolanki2@gmail.com" title="Email">✉️</a>
+            </div>
+            
+            <p style="margin-top: 2.5rem; font-size: 0.9rem; color: #94a3b8;">
+                &copy; 2026 Baba Solanki. All rights reserved. | 
+                <a href="#" style="color: #a5b4fc;">Privacy Policy</a> • 
+                <a href="#" style="color: #a5b4fc;">Terms</a>
+            </p>
+            <p style="font-size: 0.85rem; color: #64748b; margin-top: 0.75rem;">
+                Designed & Built with ❤️ | ECE Engineer Portfolio 2026
+            </p>
+        </div>
+    </footer>
+
+    <!-- Link External JavaScript -->
+    <script src="po.js"></script>
+
+    <!-- Initialize on Load -->
+    <script>
+        window.addEventListener('load', () => {
+            displayProjects(portfolio.projects);
+            displaySkills();
+            
+            // Animate stats
+            const stats = getUserStats();
+            animateNumber(document.getElementById('stat-projects'), stats.projectsCompleted, 2000);
+            animateNumber(document.getElementById('stat-years'), 1.5, 1500);
+            animateNumber(document.getElementById('stat-certifications'), stats.certificationCount, 1800);
+            animateNumber(document.getElementById('stat-skills'), stats.skillsCount, 2000);
+        });
+    </script>
+
+</body>
+</html>    <script src="po.js"></script>
+</body>
+</html>
