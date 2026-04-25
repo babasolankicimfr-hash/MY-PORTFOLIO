@@ -70,35 +70,35 @@ const portfolio = {
     skills: [
         {
             category: "Microcontrollers & Platforms",
-            skills: ["Arduino", "ARM Cortex-M4/M7", "ESP8266/ESP32", "STM32", "Raspberry Pi", "PIC Microcontrollers"]
+            skills: ["Arduino", "ESP8266/ESP32", "STM32", "Raspberry Pi", "PIC Microcontrollers"]
         },
-        {
+        /*{
             category: "Communication Protocols",
             skills: ["UART", "SPI", "I2C", "CAN", "WiFi", "Bluetooth", "Zigbee", "LoRaWAN", "MQTT"]
-        },
+        }*/,    
         {
             category: "Programming Languages",
             skills: ["C", "C++", "Python", "Verilog", "MATLAB", "JavaScript", "Assembly", "SystemVerilog"]
         },
         {
             category: "Design & CAD Tools",
-            skills: ["KiCAD", "Altium Designer", "LTspice", "EAGLE", "Fusion 360", "3D Design"]
+            skills: ["KiCAD", "CATIA", "LTspice", "Vivado", "Fusion 360", "3D Design"]
         },
         {
             category: "Development Environments",
-            skills: ["Arduino IDE", "Keil µVision", "PlatformIO", "VS Code", "STM32CubeIDE"]
+            skills: ["Arduino IDE",, "PlatformIO", "VS Code", "STM32CubeIDE"]
         },
-        {
+       /* {
             category: "Operating Systems & Frameworks",
             skills: ["FreeRTOS", "Linux", "Real-time Systems", "IoT Frameworks", "Edge Computing"]
-        }
+        }*/
     ],
     
     stats: {
-        projectsCompleted: 15,
+        projectsCompleted: 5,
         yearsExperience: 1.5,
         certificationCount: 5,
-        skillsCount: 25
+        skillsCount: 15
     }
 };
 

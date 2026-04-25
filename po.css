@@ -554,6 +554,12 @@ body.dark-mode .stat-desc {
     left: 20px;
     animation-delay: 1s;
 }
+.skill-card-4
+{
+    top:65px;
+    left: -30px;
+    animation-delay: 2s;
+}
 
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
